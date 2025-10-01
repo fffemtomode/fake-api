@@ -1,10 +1,51 @@
 {
   "users": [
-    { "id": 12, "name": "Dima", "email": "Dimon@example.com", "role": "admin" },
-    { "id": 13, "name": "Masha", "email": "Mashka@example.com", "role": "user" }
+    { "id": 1, "name": "Dima", "email": "Dimon@example.com", "experience": 5 },
+    { "id": 2, "name": "Masha", "email": "Mashka@example.com", "experience": 3 },
+    { "id": 3, "name": "Natasha", "email": "Natashka@example.com", "experience": 4 },
+    { "id": 4, "name": "Sasha", "email": "Sashka@example.com", "experience": 2 },
+    { "id": 5, "name": "Jack", "email": "Jackshka@example.com", "experience": 6 }
   ],
   "posts": [
-    { "id": 1, "title": "Hello REST", "userId": 1, "tags": ["intro","rest"] },
-    { "id": 2, "title": "JSON Tips", "userId": 2, "tags": ["json"] }
+    { 
+      "id": 1, 
+      "title": "Introduction to Web Development", 
+      "userId": 1, 
+      "category": "Programming",
+      "readTime": 8,
+      "published": true
+    },
+    { 
+      "id": 2, 
+      "title": "Design Principles for Beginners", 
+      "userId": 2, 
+      "category": "Design",
+      "readTime": 5,
+      "published": true
+    },
+    { 
+      "id": 3, 
+      "title": "Digital Marketing Strategies", 
+      "userId": 3, 
+      "category": "Marketing",
+      "readTime": 12,
+      "published": false
+    },
+    { 
+      "id": 4, 
+      "title": "Advanced JavaScript Techniques", 
+      "userId": 1, 
+      "category": "Programming",
+      "readTime": 15,
+      "published": true
+    },
+    { 
+      "id": 5, 
+      "title": "Recruitment Best Practices", 
+      "userId": 5, 
+      "category": "HR",
+      "readTime": 7,
+      "published": true
+    }
   ]
 }
